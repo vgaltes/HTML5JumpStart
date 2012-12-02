@@ -1,0 +1,107 @@
+﻿/* type selector */
+table {
+    /*color:red;*/
+}
+
+ul {
+    /*color: red;*/
+}
+
+/* class selector */
+.fancy {
+    /*color: red;*/
+}
+
+*.bold {
+    /*font-weight: bold;*/
+}
+
+/* id selector */
+#lorem {
+    /*color: red;*/
+}
+
+/* attribute selector */
+[data-author] {
+    /*color: red;*/
+}
+
+[data-author=psmith] {
+    /*data author exactly equals to psmith*/
+    /*color: red;*/
+}
+
+[data-author$=smith] {
+    /*data-author ends with smith*/
+    /*color:red;*/
+}
+
+[data-author^=psm] {
+    /*data-author begins with smith*/
+    /*color:red;*/
+}
+
+[data-author*=sm] {
+    /*data-author contains with smith*/
+    /*color:red;*/
+}
+
+/* selector chaining*/
+table, ul {
+    /*match the first selector or the second one*/
+    /*div table, ul isn't the same as div table, div ul*/
+    /*color: red;*/
+}
+
+/*pseudo elements*/
+p::first-letter {
+    /*color:red;*/
+}
+
+p::first-line {
+    /*color:red;*/
+}
+
+/*pseudo class*/
+p:hover {
+    color:red;
+}
+
+/*combinators*/
+#Div1 p {
+    /*div is descendant (anylevel) of Div1*/
+    /*color: red;*/
+}
+
+#Div1 > p {
+    /*p is a direct (inmediate) descendant of Div1*/
+    /*color: red;*/
+}
+
+ul ~ div {
+    /*div is general sibling (not immediate) of ul*/
+    /*color: red;*/
+}
+
+table + div {
+    /*div is immediate sibling of ul*/
+    /*color: red;*/
+}
+
+/* more pseudo-classes*/
+li:first-child {
+    /*color: red;*/
+}
+
+li:nth-child(2) {
+    /* index starts at 1*/
+    /*color:red;*/
+}
+li:nth-child(2n+1) {
+    /* we could use "functions" in some selectors. n starts with 0*/
+    /*color:red;*/
+}
+
+li:nth-of-type(2n+1) {
+    color:red;
+}
