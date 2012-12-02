@@ -1,0 +1,39 @@
+﻿/* setting colors */
+p {
+    /*color: rgba(123, 13,64, 255);*/
+}
+
+p {
+    /*color: hsl(0, 50%, 75%);*/
+}
+
+p {
+    /*opacity: 0.2;*/
+}
+
+/* text properties */
+table {
+    /* text-shadow: 2px 2px 2px gray; */
+}
+
+table {
+    /*extend text shadow with another shadow in all directions. Default color: black*/
+    /*we could add many shadows as we want*/
+    /*text-shadow: 2px 2px 2px red,0 0 10px blue;*/
+}
+
+@font-face {
+    font-family: "niftyfont";
+    src:url('xxx.wof') format('woff'); /*url on your project*/
+}
+
+table {
+    font-style: italic;
+    font-variant: small-caps;
+    font-weight: bolder; /*or a number between 100 and 900*/
+    font-size: 1cm; /*or inch(in), */
+                    /*or points (pt), pixels (px)*/
+    line-height:2cm; /*the same as font-size*/
+    font-family: niftyfont;
+}
+
