@@ -1,0 +1,16 @@
+﻿#lorem {
+    /*color: red;
+    margin: 20px;
+    border: 2px solid black;
+    padding: 20px;
+    width: 200px;*/ /*width of the div, not including the size of the border*/
+}
+
+#lorem {
+    color: red;
+    margin: 20px;
+    border: 50px solid black;
+    padding: 20px;
+    width: 200px; /*width of the div, not including the size of the border*/
+    box-sizing: border-box; /*now we specify that the width includes the boder size*/
+}
