@@ -1,0 +1,22 @@
+﻿#id01 {
+    position:absolute;
+    top: 25px;
+    left: 50px;
+    z-index: 0;
+    background-color: red;
+    width: 400px;
+    height: 400px;
+}
+
+#id02 {
+    z-index: 1;
+    background-color: blue;
+    width: 200px;
+    height: 200px;
+}
+
+.centered {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
