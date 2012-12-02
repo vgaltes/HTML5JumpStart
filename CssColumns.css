@@ -1,0 +1,5 @@
+﻿body {
+    columns: 8; /*only ie 10*/
+    overflow-x: scroll;
+    height: 600px;
+}
